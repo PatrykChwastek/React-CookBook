@@ -6,4 +6,4 @@ This simple demo is used to search and view recipes served from an external API.
 -React\
 -Bootstrap 4
 
-demo available on [herocu](https://recipe-search-ra.herokuapp.com/)
+demo available on [heroku](https://recipe-search-ra.herokuapp.com/)
