@@ -30,7 +30,7 @@ const RecipeView = ({ match })=> {
     return (
         <div className="recipeContener row">           
             <div className="row wrapper justify-content-center">
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-5 col-sm-12">
                     <h5 className="bottom-0 m-3">{recipeInfo.label}</h5>
                     <div className="p-3">
                         <img className="card-img"
@@ -74,7 +74,7 @@ const RecipeView = ({ match })=> {
                         </ul>
                     </div>    
                 </div>
-                <div className="col-md-5 card col-sm-12 IngredientList">
+                <div className="col-lg-4 col-md-5 card col-sm-12 IngredientList">
                     <h5 className="p-2">Ingredients:</h5>
                     {
                     recipeInfo.ingredients !== undefined ?
