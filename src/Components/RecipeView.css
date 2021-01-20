@@ -1,0 +1,30 @@
+
+.recipeContener{
+  background: radial-gradient(circle, rgb(23, 51, 82) 0%, rgb(9, 27, 44) 100%);
+  min-height: 100vh;
+  padding: 1.7rem;
+  color: #fff;
+}
+
+.recipeContener .card{
+ background:  rgb(39, 46, 63);
+ box-shadow: 0 0 1rem rgb(8, 8, 8);
+}
+
+.recipeContener .card-header{
+ background: rgb(30, 30, 30);
+  box-shadow: 0 0 .08rem rgb(11, 11, 11);
+}
+
+.recipeContener .IngredientList{
+   background: rgb(19, 43, 70);
+   padding-top: .6rem;
+   border-radius: 1.1rem;
+}
+
+.recipeContener .list-group-item{
+ background:   rgb(39, 46, 63);
+ box-shadow: 0 0 .2rem rgb(8, 8, 8);
+ border: .2rem solid black;
+ padding: .7rem;
+}

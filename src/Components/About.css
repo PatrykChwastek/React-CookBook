@@ -1,0 +1,22 @@
+
+.AboutContainer{
+    background: radial-gradient(circle, rgb(23, 51, 82) 42%, rgb(9, 27, 44) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+}
+
+.AboutContainer .card{
+      box-shadow: 0 0 .8rem #000;
+      background:  rgb(39, 46, 63);
+      border-radius: 1.1rem;
+      width: 52rem;
+      height: min-content;
+}
+
+.AboutContainer .btn{
+    
+   float: right !important  ;
+}
